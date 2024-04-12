@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Proxima Nova";
+    src: url('fonts/proximanova_regular.ttf');
+}
+
+body {
+    width: 1920px;
+    height: 5155px;
+    margin: 30px auto;
+    background-color:  rgba(22, 40, 49, 1);
+    font-family: Proxima Nova;
+  }
+  
+  header {
+    margin-bottom: 50px;
+    padding-left: 312px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header_logo {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    margin-right: 180px;
+    background-image: url('images/Vector.png');
+  }
+  
+  .w {
+    position: absolute;
+    top: 13.51px;
+    right: 14px;
+  }
+  
+  nav {
+    margin-right: 132px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  li {
+    margin-right: 50px;
+    color: white;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  a:hover {
+    color: grey;
+  }
+  
