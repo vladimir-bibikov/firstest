@@ -33,7 +33,7 @@ body {
   }
   
   nav {
-    margin-right: 132px;
+    margin-right: 214px;
   }
   
   nav ul {
@@ -42,16 +42,118 @@ body {
   }
   
   li {
+    font-weight: 400;
+    font-size: 14px;
     margin-right: 50px;
     color: white;
+  }
+
+  li:last-child {
+    margin-right: 0;
   }
 
   a {
     text-decoration: none;
     color: #fff;
+    transition: all 0.3s linear;
   }
   
   a:hover {
     color: grey;
   }
   
+  button {
+    box-sizing: border-box;
+    padding: 9px 15px;
+    background-color: #018ABE;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.3s linear;
+  }
+
+  button:hover {
+    background-color: #fff;
+    color: #018ABE;
+    cursor: pointer;
+  }
+
+  .banner {
+    box-sizing: border-box;
+    width: 1296px;
+    height: 600px;
+    margin: auto;
+    padding-top: 136px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-image: url('images/unsplash_S-llxYh3GzI.png');
+
+    font-family: El Messiri;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: center;
+    color: #fff;
+
+  }
+
+  .first::before {
+    content: url('images/Rectangle\ 3.png');
+    margin-right: 66px;
+  }
+
+  .first::after {
+    content: url('images/Rectangle\ 5.png');
+    margin-left: 66px;
+  }
+
+  .second {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 89.6px;
+  }
+
+  h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 64px;
+    line-height: 89.6px;
+
+  }
+
+  #seance {
+    width: 1296px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+  }
+
+  .section_header {
+    font-family: El Messiri;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 58.8px;
+  }
+
+  .section_header::before {
+    content: url('images/Rectangle\ 6.png');
+    margin-right: 45px;
+  }
+
+  .section_header::after {
+    content: url('images/Rectangle\ 7.png');
+    margin-left: 45px;
+  }
+
+  
+
+
