@@ -14,6 +14,7 @@ body {
     margin: 30px auto;
     background-color:  rgba(22, 40, 49, 1);
     font-family: Proxima Nova;
+    color: #fff;
   }
   
   header {
@@ -27,7 +28,7 @@ body {
     position: relative;
     height: 60px;
     width: 60px;
-    margin-right: 180px;
+    margin-right: 230px;
     background-image: url('images/Vector.png');
   }
   
@@ -35,10 +36,23 @@ body {
     position: absolute;
     top: 13.51px;
     right: 14px;
-  }
+    animation: w 3s linear infinite;
+}
+
+
+@keyframes w {
+	0% {
+		transform: rotateY(0deg);
+	}
+
+	100% {
+		transform: rotateY(360deg);
+	}
+}
+  
   
   nav {
-    margin-right: 214px;
+    margin-right: 188px;
   }
   
   nav ul {
@@ -402,6 +416,123 @@ body {
     justify-content: space-between;
   }
 
+  .footer_wrap {
+    display: flex;
+    flex-direction: column;
+    width: 392px;
+    height: 100%;
+    justify-content: space-between;
+  }
+
+  iframe {
+    border-radius: 10px;
+  }
+  
+  
+  
+  .pool {
+    box-sizing: border-box;
+    padding: 35px 45px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: #018ABE;
+    border-radius: 10px;
+  
+  }
+  
+  .pool ul {
+    margin-top: 21px;
+    list-style: none;
+    padding: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+  }
+  
+  .pool ul li {
+    margin-bottom: 21px;
+    display: flex;
+    align-items: start;
+  }
+  
+  ul li.info {
+    align-items: center;
+  }
+  
+  
+  
+  h5 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    margin: 0;
+    color: #fff;
+  }
+  
+  .address::before {
+    content: url('../images/geotag.png');
+    margin-right: 23px;
+    margin-left: 3px;
+  }
+  
+  .metro::before {
+    content: url('../images/m.png');
+    margin-right: 20px;
+  }
+  
+  .info::before {
+    content: url('../images/calendar.png');
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    
+  }
+  
+  .f-b {
+    width: 155px;
+    height: 36px;
+    border: 0;
+    padding: 9px 15px;
+  
+    gap: 10px;
+    background-color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 140%;
+    color: #018ABE;
+  }
+  
+  .f-b:hover {
+    background-color: #018ABE;
+    color: #fff;
+    font-size: 11px;
+    border: 0.5px solid white;
+  }
+  
+  .marks {
+    width: 1296px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 135%;
+  }
+  
+  .marks {
+    width: 1296px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 135%;
+  }
+  
+  span a {
+    margin: 0;
+  }
+  
 
 
 
